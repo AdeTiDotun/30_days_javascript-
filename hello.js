@@ -7,3 +7,9 @@ function greetings() {
 }
 
 greetings()
+
+let greetMe = () => {
+    console.log('good');
+}
+
+greetMe()
