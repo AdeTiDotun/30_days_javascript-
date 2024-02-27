@@ -1,6 +1,9 @@
 function greetings() {
-    let greetings = "Hello World!";
-    function callGreetings() {
-        console.log(greetings);
+    let callGreetings = "Hello World";
+    function called() {
+        console.log(callGreetings);
     }
+    called()
 }
+
+greetings()
